@@ -9,6 +9,17 @@ UMKM sebagai tulang punggung perekonomian membutuhkan sistem pencatatan transaks
 - **AES** → algoritma enkripsi simetris untuk menjaga kerahasiaan data.
 - **USB Security Key** → mengamankan kunci enkripsi (DEK/KEK).
 
+## </> Teknologi yang digunakan
+- **Blockchain**: Ethereum (Ganache/Hardhat)  
+- **IPFS**: InterPlanetary File System (daemon lokal & public gateway)  
+- **Enkripsi**: AES-256 (DEK), RSA/ECC (KEK)  
+- **USB Security Key**: hardware key untuk manajemen kunci  
+- **Backend**: Node.js / Python Flask  
+- **Frontend**: Javascript, HTML, CSS
+- **Smart Contract**: Solidity  
+- **Testing**: Mocha/Chai (Solidity), unittest (Python)  
+- **Tools Pendukung**: Truffle/Hardhat, Metamask, Ganache, IPFS CLI/HTTP API  
+
 ## ✨ Fitur Utama
 - Pencatatan transaksi UMKM dengan proof-of-integrity berbasis Blockchain.
 - Penyimpanan file transaksi terenkripsi di IPFS.
